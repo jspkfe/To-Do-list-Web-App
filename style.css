@@ -1,0 +1,67 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 50px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    align-items: center;
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    text-align: left;
+}
+
+li input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 8px;
+}
+
+li span {
+    flex: 1;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+}
+button:nth-of-type(2) {
+    background-color: #e0a0a6;
+}
+
+button:nth-of-type(2):hover {
+    background-color: #d1afb3;
+}
+#filters {
+  margin-top: 15px;
+}
+
+#filters button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#filters button:hover {
+  background-color: #ddd;
+}
+
